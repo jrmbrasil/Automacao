@@ -1,0 +1,6 @@
+[PROJECTS]
+Count=2
+Project0=..\..\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\Examples\Development Systems\EasyPIC6\Led Blinking\LedBlinking.mcppi
+Project1=teste.mcppi
+[ActiveProject]
+Index=1
