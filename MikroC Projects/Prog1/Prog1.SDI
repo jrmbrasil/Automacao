@@ -1,0 +1,39 @@
+,,,        #include "p16f877.inc"
+00000000,,,_main:
+,,,
+,,,;Prog1.c,42 ::          void main()
+,,,;Prog1.c,50 ::          TRISA = 0x00;          // set direction to be output
+,,,        CLRF       TRISA+0
+,,,;Prog1.c,51 ::          TRISB = 0x00;          // set direction to be output
+,,,        CLRF       TRISB+0
+,,,;Prog1.c,52 ::          TRISC = 0x00;          // set direction to be output
+,,,        CLRF       TRISC+0
+,,,;Prog1.c,53 ::          TRISD = 0x00;          // set direction to be output
+,,,        CLRF       TRISD+0
+,,,;Prog1.c,55 ::          Lcd_Init();                        // Initialize LCD
+,,,        CALL       _Lcd_Init+0
+,,,;Prog1.c,57 ::          Lcd_Cmd(_LCD_CLEAR);               // Clear display
+,,,        MOVLW      1
+,,,        MOVWF      FARG_Lcd_Cmd_out_char+0
+,,,        CALL       _Lcd_Cmd+0
+,,,;Prog1.c,58 ::          Lcd_Cmd(_LCD_CURSOR_OFF);          // Cursor off
+,,,        MOVLW      12
+,,,        MOVWF      FARG_Lcd_Cmd_out_char+0
+,,,        CALL       _Lcd_Cmd+0
+,,,;Prog1.c,64 ::          do {
+00000000,,L_main0:,L_main0:
+,,,;Prog1.c,69 ::          PORTA++;
+,,,        INCF       PORTA+0, 0
+,,,        MOVWF      R0+0
+,,,        MOVF       R0+0, 0
+,,,        MOVWF      PORTA+0
+,,,;Prog1.c,71 ::          Lcd_Out_Cp(PORTA);
+,,,        MOVF       PORTA+0, 0
+,,,        MOVWF      FARG_Lcd_Out_CP_text+0
+,,,        CALL       _Lcd_Out_CP+0
+,,,;Prog1.c,77 ::          } while(1);            // Endless loop
+,,,        GOTO       L_main0
+,,,;Prog1.c,78 ::          }
+,,,        GOTO       $+0
+,,,; end of _main
+,,,end
