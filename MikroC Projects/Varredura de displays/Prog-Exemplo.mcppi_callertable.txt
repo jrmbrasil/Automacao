@@ -1,0 +1,8 @@
+main
+	__CC2DW
+		____DoICP
+interrupt
+	Dec2Bcd16
+		Div_16x16_U
+		Mul_16x16_U
+	sete_segmentos
