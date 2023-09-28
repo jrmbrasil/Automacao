@@ -1,0 +1,32 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -GC -DL -O11111114 -fo20 -N"F:\DADOS_\PROJETOS\PIC.DOUGLINO\FIRMWARE\TESTE-PLACA-LCD-PORTAE\LED-LCD-BOTOES-PORTAE.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"F:\DADOS_\PROJETOS\PIC.DOUGLINO\FIRMWARE\TESTE-PLACA-LCD-PORTAE\" -SP"G:\DADOS_\PROJETOS\PIC.DOUGLINO\FIRMWARE\TESTE-DE-PLACA\" -SP"E:\DADOS_\1.23\MCC03\AULAS\LCD\LCD-BASICO-MICROC\" -SP"F:\DADOS_\1.23\MCC03\AULAS\LCD\LCD-BASICO-MICROC\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"F:\DADOS-DOUG\1.23\MCC03\AULAS\LCD\LCD-BASICO-MICROC\" -SP"E:\DADOS-DOUG\1.23\MCC03\AULAS\LCD\LCD-BASICO-MICROC\" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"P:\DADOS-DOUG\1.23\MCC03\AULAS\LCD\LCD-BASICO-MICROC\" -SP"F:\DADOS-DOUG\1.23\MCC03\AULAS\LCD\MIKROC\" -SP"D:\DADOS-DOUG\1.23\MCC03\AULAS\LCD\MIKROC\" -SP"P:\DOUG-SENAI\1.23\MCC03\AULAS\LCD\MIKROC\" -SP"F:\DOUG-SENAI\1.23\MCC03\AULAS\LCD\MIKROC\" -SP"E:\1.23\MCC03\AULAS\LCD\MIKROC\" -SP"G:\1.23\MCC03\AULAS\LCD\MIKROC\" -SP"P:\1.23\MCC03\AULAS\LCD\MIKROC\" "LCD.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_C.mcl" "__Lib_EEPROM.mcl" "__Lib_FLASH_RW.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'G:\DADOS_\PROJETOS\PIC.DOUGLINO\FIRMWARE\TESTE-DE-PLACA'	 
+warning: 0	1501	Specified search path does not exist: 'E:\DADOS_\1.23\MCC03\AULAS\LCD\LCD-BASICO-MICROC'	 
+warning: 0	1501	Specified search path does not exist: 'F:\DADOS_\1.23\MCC03\AULAS\LCD\LCD-BASICO-MICROC'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\Uses\P16'	 
+warning: 0	1501	Specified search path does not exist: 'F:\DADOS-DOUG\1.23\MCC03\AULAS\LCD\LCD-BASICO-MICROC'	 
+warning: 0	1501	Specified search path does not exist: 'E:\DADOS-DOUG\1.23\MCC03\AULAS\LCD\LCD-BASICO-MICROC'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\defs'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\Uses\P16'	 
+warning: 0	1501	Specified search path does not exist: 'P:\DADOS-DOUG\1.23\MCC03\AULAS\LCD\LCD-BASICO-MICROC'	 
+warning: 0	1501	Specified search path does not exist: 'F:\DADOS-DOUG\1.23\MCC03\AULAS\LCD\MIKROC'	 
+warning: 0	1501	Specified search path does not exist: 'D:\DADOS-DOUG\1.23\MCC03\AULAS\LCD\MIKROC'	 
+warning: 0	1501	Specified search path does not exist: 'P:\DOUG-SENAI\1.23\MCC03\AULAS\LCD\MIKROC'	 
+warning: 0	1501	Specified search path does not exist: 'F:\DOUG-SENAI\1.23\MCC03\AULAS\LCD\MIKROC'	 
+warning: 0	1501	Specified search path does not exist: 'E:\1.23\MCC03\AULAS\LCD\MIKROC'	 
+warning: 0	1501	Specified search path does not exist: 'G:\1.23\MCC03\AULAS\LCD\MIKROC'	 
+warning: 0	1501	Specified search path does not exist: 'P:\1.23\MCC03\AULAS\LCD\MIKROC'	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 78 ms	 
+diagnostics: 0	122	Compilation Started	LCD.c
+hint: 45	1163	Variable 'txt' has been declared, but not used	LCD.c
+diagnostics: 135	123	Compiled Successfully	LCD.c
+hint: 44	1164	Variable 'numero' has been eliminated by optimizer	LCD.c
+diagnostics: 0	127	All files Compiled in 218 ms	 
+hint: 0	1144	Used RAM (bytes): 57 (16%)  Free RAM (bytes): 295 (84%)	Used RAM (bytes): 57 (16%)  Free RAM (bytes): 295 (84%)
+hint: 0	1144	Used ROM (program words): 675 (8%)  Free ROM (program words): 7517 (92%)	Used ROM (program words): 675 (8%)  Free ROM (program words): 7517 (92%)
+diagnostics: 0	125	Project Linked Successfully	LED-LCD-BOTOES-PORTAE.mcppi
+hint: 0	1004	COFF file successfully generated	COFF file successfully generated
+diagnostics: 0	128	Linked in 10015 ms	 
+diagnostics: 0	129	Project 'LED-LCD-BOTOES-PORTAE.mcppi' completed: 10514 ms	 
+diagnostics: 0	103	Finished successfully: 13 fev 2015, 17:03:13	LED-LCD-BOTOES-PORTAE.mcppi
