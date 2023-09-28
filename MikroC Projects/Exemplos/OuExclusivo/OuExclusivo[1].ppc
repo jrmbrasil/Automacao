@@ -1,0 +1,39 @@
+[DeviceName]
+Value=P16F877A
+[DeviceClock]
+Value=20
+[MainUnit]
+Value=OuExclusivo.c
+[DeviceFlags]
+Count=10
+Value0=_CONFIG = $2007
+Value1=_CP_OFF = $3FFF
+Value2=_DEBUG_OFF = $3FFF
+Value3=_WRT_OFF = $3FFF
+Value4=_CPD_OFF = $3FFF
+Value5=_LVP_OFF = $3F7F
+Value6=_BODEN_ON = $3FFF
+Value7=_PWRTE_ON = $3FF7
+Value8=_WDT_OFF = $3FFB
+Value9=_HS_OSC = $3FFE
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=OuExclusivo.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=4
+Value0=C:\Program Files\Mikroelektronika\mikroC82\Defs\
+Value1=C:\Program Files\Mikroelektronika\mikroC82\Uses\p16\
+Value2=C:\temp\microcontroladorPOS\c\mikroC\OuExclusivo\
+Value3=C:\teste_mikroc82\
+[IncludePath]
+Count=0
