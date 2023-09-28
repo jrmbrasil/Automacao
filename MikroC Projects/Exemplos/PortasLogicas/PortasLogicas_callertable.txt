@@ -1,0 +1,10 @@
+main
+	Get_Fosc_kHz
+	FloatToStr
+		Div_8x8_U
+		Mul_32x32_FP
+			SETFUN32
+			SETFOV32
+			RES032
+		Compare_Double
+		strcpy
