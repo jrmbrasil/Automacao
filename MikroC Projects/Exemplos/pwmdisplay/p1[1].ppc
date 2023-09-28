@@ -1,0 +1,35 @@
+[DeviceName]
+Value=P16F877A
+[DeviceClock]
+Value=4
+[MainUnit]
+Value=pwmdisplay.c
+[DeviceFlags]
+Count=3
+Value0=_LVP_OFF = $3F7F
+Value1=_WDT_OFF = $3FFB
+Value2=_RC_OSC = $3FFF
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=pwmdisplay.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=7
+Value0=C:\temp\microcontroladorPOS\c\mikroC\pwmdisplay\
+Value1=C:\Program Files\Mikroelektronika\mikroC\Defs\
+Value2=C:\Program Files\Mikroelektronika\mikroC\Uses\p16\
+Value3=C:\temp\microcontroladorPOS\c\mikroC\pwmdisplay\
+Value4=C:\Arquivos de programas\Mikroelektronika\mikroC82\Defs\
+Value5=C:\Arquivos de programas\Mikroelektronika\mikroC82\Uses\p16\
+Value6=C:\uem\simulamicroc\pwmdisplay\
+[IncludePath]
+Count=0
