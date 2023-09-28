@@ -1,0 +1,40 @@
+[DeviceName]
+Value=p16f877a
+[DeviceClock]
+Value=20
+[MainUnit]
+Value=serial.c
+[DeviceFlags]
+Count=9
+Value0=_CP_OFF = $3FFF
+Value1=_DEBUG_OFF = $3FFF
+Value2=_WRT_OFF = $3FFF
+Value3=_CPD_OFF = $3FFF
+Value4=_LVP_OFF = $3F7F
+Value5=_BODEN_ON = $3FFF
+Value6=_PWRTE_ON = $3FF7
+Value7=_WDT_OFF = $3FFB
+Value8=_HS_OSC = $3FFE
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=serial.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=6
+Value0=C:\temp\microcontroladorPOS\c\mikroC\serial\
+Value1=C:\Program Files\Mikroelektronika\mikroC\Defs\
+Value2=C:\Program Files\Mikroelektronika\mikroC\Uses\p16\
+Value3=C:\temp\microcontroladorPOS\c\mikroC\serial\
+Value4=C:\Program Files\Mikroelektronika\mikroC82\Defs\
+Value5=C:\Program Files\Mikroelektronika\mikroC82\Uses\p16\
+[IncludePath]
+Count=0

@@ -1,0 +1,36 @@
+[DeviceName]
+Value=P12F675
+[DeviceClock]
+Value=4
+[MainUnit]
+Value=QuatroAVinte_12f675.c
+[DeviceFlags]
+Count=7
+Value0=_CPD_OFF = $3FFF
+Value1=_CP_OFF = $3FFF
+Value2=_BODEN_ON = $3FFF
+Value3=_MCLRE_ON = $3FFF
+Value4=_PWRTE_ON = $3FEF
+Value5=_WDT_OFF = $3FF7
+Value6=_INTRC_OSC_NOCLKOUT = $3FFC
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=QuatroAVinte_12f675.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=4
+Value0=C:\temp\microcontroladorPOS\c\mikroC\QuatroAVinte_12f675\
+Value1=C:\Program Files\Mikroelektronika\mikroC\Defs\
+Value2=C:\Program Files\Mikroelektronika\mikroC\Uses\p16\
+Value3=C:\temp\microcontroladorPOS\c\mikroC\QuatroAVinte_12f675\
+[IncludePath]
+Count=0

@@ -1,0 +1,9 @@
+interrupt
+	timer_1_on
+	set_timer_1
+	timer_1_off
+main
+	Adc_Read
+		Delay_22us
+	timer_1_on
+	timer_1_setup
