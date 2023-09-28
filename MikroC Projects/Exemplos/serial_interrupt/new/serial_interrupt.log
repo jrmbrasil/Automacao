@@ -1,0 +1,16 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pp16f877a -DL -O11111114 -fo4 -N"C:\Users\paulo\temp\microcontroladorPOS\c\mikroC\serial_interrupt\new\serial_interrupt.mcppi" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\paulo\temp\microcontroladorPOS\c\mikroC\serial_interrupt\new\" "serial_interrupt.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_UART_c67.mcl"	 
+hint: 0	1138	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 115	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	126	All files Preprocessed in 47 ms	 
+diagnostics: 0	122	Compilation Started	serial_interrupt.c
+warning: 31	1509	Generated baud rate is 9615 bps (error = 0.16 percent)	serial_interrupt.c
+diagnostics: 39	123	Compiled Successfully	serial_interrupt.c
+diagnostics: 0	127	All files Compiled in 109 ms	 
+hint: 0	1143	Used RAM (bytes): 8 (2%)  Free RAM (bytes): 344 (98%)	Used RAM (bytes): 8 (2%)  Free RAM (bytes): 344 (98%)
+hint: 0	1143	Used ROM (program words): 101 (1%)  Free ROM (program words): 8091 (99%)	Used ROM (program words): 101 (1%)  Free ROM (program words): 8091 (99%)
+diagnostics: 0	125	Project Linked Successfully	serial_interrupt.mcppi
+diagnostics: 0	128	Linked in 281 ms	 
+diagnostics: 0	129	Project 'serial_interrupt.mcppi' completed: 718 ms	 
+diagnostics: 0	103	Finished successfully: 11 set 2010, 01:19:27	serial_interrupt.mcppi
