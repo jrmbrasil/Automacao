@@ -1,0 +1,14 @@
+Line	MessageNo	File Name
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -GC -DL -O11111114 -fo4 -N"C:\Documents and Settings\jmarques\Meus documentos\MikroC Projects\MCC4-SP3-PROG1.mcppi" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Arquivos de programas\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Documents and Settings\jmarques\Meus documentos\MikroC Projects\" "MCC4-SP3-PROG1.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1138	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 47 ms	 
+diagnostics: 0	122	Compilation Started	MCC4-SP3-PROG1.c
+diagnostics: 8	123	Compiled Successfully	MCC4-SP3-PROG1.c
+diagnostics: 0	127	All files Compiled in 63 ms	 
+hint: 0	1143	Used RAM (bytes): 3 (1%)  Free RAM (bytes): 349 (99%)	Used RAM (bytes): 3 (1%)  Free RAM (bytes): 349 (99%)
+hint: 0	1143	Used ROM (program words): 12 (1%)  Free ROM (program words): 8180 (99%)	Used ROM (program words): 12 (1%)  Free ROM (program words): 8180 (99%)
+diagnostics: 0	125	Project Linked Successfully	MCC4-SP3-PROG1.mcppi
+hint: 0	1004	COFF file successfully generated	COFF file successfully generated
+diagnostics: 0	128	Linked in 265 ms	 
+diagnostics: 0	129	Project 'MCC4-SP3-PROG1.mcppi' completed: 484 ms	 
+diagnostics: 0	103	Finished successfully: 25 nov 2010, 07:51:52	MCC4-SP3-PROG1.mcppi
