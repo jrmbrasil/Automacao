@@ -1,0 +1,11 @@
+main
+	LCD_inicializa
+		LCD_escreve
+	LCD_ligar
+		LCD_escreve
+	ByteToStr
+		Div_8x8_U
+	LCD_mensagem
+		LCD_limpar
+			LCD_escreve
+		LCD_escreve

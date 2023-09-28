@@ -1,0 +1,198 @@
+MPASM  5.37                         PROG1.ASM   11-4-2010  11:38:48         PAGE  1
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00001 
+0000                  00002 _main:
+                      00003 
+                      00004 ;Prog1.c,40 ::          void main()
+                      00005 ;Prog1.c,42 ::          TRISA = 0x00;          // set direction to be output
+Warning[207]: Found label after column 1. (CLRF)
+Error[122]  : Illegal opcode (TRISA)
+                      00006         CLRF       TRISA+0
+                      00007 ;Prog1.c,43 ::          TRISB = 0x00;          // set direction to be output
+Warning[207]: Found label after column 1. (CLRF)
+Error[122]  : Illegal opcode (TRISB)
+                      00008         CLRF       TRISB+0
+                      00009 ;Prog1.c,44 ::          TRISC = 0x00;          // set direction to be output
+Warning[207]: Found label after column 1. (CLRF)
+Error[122]  : Illegal opcode (TRISC)
+                      00010         CLRF       TRISC+0
+                      00011 ;Prog1.c,45 ::          TRISD = 0x00;          // set direction to be output
+Warning[207]: Found label after column 1. (CLRF)
+Error[122]  : Illegal opcode (TRISD)
+                      00012         CLRF       TRISD+0
+                      00013 ;Prog1.c,48 ::          Lcd_Init();                        // Initialize LCD
+Warning[207]: Found label after column 1. (CALL)
+Error[122]  : Illegal opcode (_Lcd_Init)
+                      00014         CALL       _Lcd_Init+0
+                      00015 ;Prog1.c,49 ::          Lcd_Cmd(_LCD_TURN_ON);
+Warning[207]: Found label after column 1. (MOVLW)
+Error[108]  : Illegal character (1)
+                      00016         MOVLW      12
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (FARG_Lcd_Cmd_out_char)
+                      00017         MOVWF      FARG_Lcd_Cmd_out_char+0
+Warning[207]: Found label after column 1. (CALL)
+Error[122]  : Illegal opcode (_Lcd_Cmd)
+                      00018         CALL       _Lcd_Cmd+0
+                      00019 ;Prog1.c,50 ::          Lcd_Cmd(_LCD_CLEAR);               // Clear display
+Warning[207]: Found label after column 1. (MOVLW)
+Error[108]  : Illegal character (1)
+                      00020         MOVLW      1
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (FARG_Lcd_Cmd_out_char)
+                      00021         MOVWF      FARG_Lcd_Cmd_out_char+0
+Warning[207]: Found label after column 1. (CALL)
+Error[122]  : Illegal opcode (_Lcd_Cmd)
+                      00022         CALL       _Lcd_Cmd+0
+                      00023 ;Prog1.c,56 ::          PORTC = 0x00;
+Warning[207]: Found label after column 1. (CLRF)
+Error[122]  : Illegal opcode (PORTC)
+                      00024         CLRF       PORTC+0
+                      00025 ;Prog1.c,57 ::          do
+0000                  00026 L_main0:
+                      00027 ;Prog1.c,59 ::          ByteToStr(PORTC,contador);
+Warning[207]: Found label after column 1. (MOVF)
+Error[122]  : Illegal opcode (PORTC)
+MPASM  5.37                         PROG1.ASM   11-4-2010  11:38:48         PAGE  2
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00028         MOVF       PORTC+0, 0
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (FARG_ByteToStr_input)
+                      00029         MOVWF      FARG_ByteToStr_input+0
+Warning[207]: Found label after column 1. (MOVLW)
+Error[122]  : Illegal opcode (_contador)
+                      00030         MOVLW      _contador+0
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (FARG_ByteToStr_output)
+                      00031         MOVWF      FARG_ByteToStr_output+0
+Warning[207]: Found label after column 1. (CALL)
+Error[122]  : Illegal opcode (_ByteToStr)
+                      00032         CALL       _ByteToStr+0
+                      00033 ;Prog1.c,60 ::          Lcd_Out(1,1,contador);
+Warning[207]: Found label after column 1. (MOVLW)
+Error[108]  : Illegal character (1)
+                      00034         MOVLW      1
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (FARG_Lcd_Out_row)
+                      00035         MOVWF      FARG_Lcd_Out_row+0
+Warning[207]: Found label after column 1. (MOVLW)
+Error[108]  : Illegal character (1)
+                      00036         MOVLW      1
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (FARG_Lcd_Out_column)
+                      00037         MOVWF      FARG_Lcd_Out_column+0
+Warning[207]: Found label after column 1. (MOVLW)
+Error[122]  : Illegal opcode (_contador)
+                      00038         MOVLW      _contador+0
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (FARG_Lcd_Out_text)
+                      00039         MOVWF      FARG_Lcd_Out_text+0
+Warning[207]: Found label after column 1. (CALL)
+Error[122]  : Illegal opcode (_Lcd_Out)
+                      00040         CALL       _Lcd_Out+0
+                      00041 ;Prog1.c,61 ::          Delay_ms(500);      // 0.5 second delay
+Warning[207]: Found label after column 1. (MOVLW)
+Error[108]  : Illegal character (3)
+                      00042         MOVLW      3
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (R11)
+                      00043         MOVWF      R11+0
+Warning[207]: Found label after column 1. (MOVLW)
+Error[108]  : Illegal character (1)
+                      00044         MOVLW      138
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (R12)
+                      00045         MOVWF      R12+0
+Warning[207]: Found label after column 1. (MOVLW)
+Error[108]  : Illegal character (8)
+                      00046         MOVLW      85
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (R13)
+MPASM  5.37                         PROG1.ASM   11-4-2010  11:38:48         PAGE  3
+
+
+LOC  OBJECT CODE     LINE SOURCE TEXT
+  VALUE
+
+                      00047         MOVWF      R13+0
+0000                  00048 L_main3:
+Warning[207]: Found label after column 1. (DECFSZ)
+Error[122]  : Illegal opcode (R13)
+0000                  00049         DECFSZ     R13+0, 1
+Warning[207]: Found label after column 1. (GOTO)
+Error[122]  : Illegal opcode (L_main3)
+0000                  00050         GOTO       L_main3
+Warning[207]: Found label after column 1. (DECFSZ)
+Error[122]  : Illegal opcode (R12)
+0000                  00051         DECFSZ     R12+0, 1
+Warning[207]: Found label after column 1. (GOTO)
+Error[122]  : Illegal opcode (L_main3)
+0000                  00052         GOTO       L_main3
+Warning[207]: Found label after column 1. (DECFSZ)
+Error[122]  : Illegal opcode (R11)
+0000                  00053         DECFSZ     R11+0, 1
+Warning[207]: Found label after column 1. (GOTO)
+Error[122]  : Illegal opcode (L_main3)
+0000                  00054         GOTO       L_main3
+Warning[207]: Found label after column 1. (NOP)
+0000                  00055         NOP
+Warning[207]: Found label after column 1. (NOP)
+0000                  00056         NOP
+                      00057 ;Prog1.c,62 ::          PORTC++;
+Warning[207]: Found label after column 1. (INCF)
+Error[122]  : Illegal opcode (PORTC)
+                      00058         INCF       PORTC+0, 0
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (R0)
+                      00059         MOVWF      R0+0
+Warning[207]: Found label after column 1. (MOVF)
+Error[122]  : Illegal opcode (R0)
+                      00060         MOVF       R0+0, 0
+Warning[207]: Found label after column 1. (MOVWF)
+Error[122]  : Illegal opcode (PORTC)
+                      00061         MOVWF      PORTC+0
+                      00062 ;Prog1.c,64 ::          while(1);            // Endless loop
+Warning[207]: Found label after column 1. (GOTO)
+Error[122]  : Illegal opcode (L_main0)
+                      00063         GOTO       L_main0
+                      00064 ;Prog1.c,65 ::          }
+Warning[207]: Found label after column 1. (GOTO)
+Error[108]  : Illegal character ($)
+                      00065         GOTO       $+0
+                      00066 ; end of _main
+Error[129]  : Expected (END)
+Error[131]  : Processor type is undefined
+MPASM  5.37                         PROG1.ASM   11-4-2010  11:38:48         PAGE  4
+
+
+SYMBOL TABLE
+  LABEL                             VALUE 
+
+L_main0                           00000000
+L_main3                           00000000
+NOP                               00000000
+_main                             00000000
+
+
+MEMORY USAGE MAP ('X' = Used,  '-' = Unused)
+
+
+All other memory blocks unused.
+
+Program Memory Words Used:     0
+Program Memory Words Free:     1
+
+
+Errors   :    44
+Warnings :    44 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+
