@@ -2,7 +2,13 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "Pisca led",
+			"path": "Pisca led"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
 }
