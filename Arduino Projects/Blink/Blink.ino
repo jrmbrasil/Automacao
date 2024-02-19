@@ -22,38 +22,18 @@
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 */
 
-int contador=50;
-bool controle=false;
 // the setup function runs once when you press reset or power the board
-void setup()
+void setup() 
 {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
 // the loop function runs over and over again forever
-void loop()
+void loop() 
 {
-  
-  if(controle)
-  {
-    controle=false;
-    contador=10;
-    delay(5000);
-  }
-  else
-  {
-    controle=true;
-    contador=50;
-    delay(10000);
-  }
-
-  while(contador>0)
-  {
-      digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-      delay(100);                       // wait for a second
-      digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-      delay(100);                       // wait for a second
-      contador--;
-   }
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(500);                       // wait for a second
 }

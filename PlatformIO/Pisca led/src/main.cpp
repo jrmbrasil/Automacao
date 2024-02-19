@@ -28,11 +28,11 @@ void pisca_led()
   if(digitalRead(LED_BUILTIN))
   {
     digitalWrite(LED_BUILTIN,LOW);
-    delay(100);
+    delay(1000);
   }
   else
   {
     digitalWrite(LED_BUILTIN,HIGH);
-    delay(100);
+    delay(1000);
   }
 }
